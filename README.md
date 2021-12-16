@@ -28,6 +28,8 @@
 
     - https://nextjs.org/
 
+    - adding a new project to firebase console
+
     - Read about dynamic "built-in" routing in next.js
 
     - In next.js, any file inside the pages folder is a website page.
