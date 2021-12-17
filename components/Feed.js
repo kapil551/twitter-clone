@@ -1,15 +1,18 @@
+import { SparklesIcon } from "@heroicons/react/outline";
+
 function Feed() {
     return (
         
         // feed container
         <div className="text-white flex-grow max-w-2xl sm:ml-[4.563rem] xl:ml-[23.125rem] border-l border-r border-gray-700">
-            I am a feed
+            
             {/* feed header*/}
-            <div className="border-2 border-green-500">
-                Feed Header
-                <h2></h2>
-                <div>
-
+            <div className="flex items-center sm:justify-between py-2 px-3 bg-black border-b border-gray-700 sticky top-0 z-50">
+                
+                <h2 className="text-lg sm:text-xl font-bold"> Home </h2>
+                
+                <div className="border-2 w-9 h-9 flex items-center justify-center ml-auto xl:px-0">
+                    <SparklesIcon className="h-5 text-white"/>
                 </div>
 
             </div>
