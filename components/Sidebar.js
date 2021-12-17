@@ -19,7 +19,9 @@ function Sidebar() {
     return (
 
         /*
-        Every responsive design in tailwind css is mobile first.
+            Every responsive design in tailwind css is mobile first.
+
+            position: fixed; --> https://developer.mozilla.org/en-US/docs/Web/CSS/position
         */
         <div className="border-2 border-blue-500 hidden sm:flex flex-col items-center xl:items-start xl:w-[21.25rem] p-2 
                         fixed h-full">

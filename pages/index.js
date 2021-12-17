@@ -1,6 +1,8 @@
 import Head from 'next/head';
 // import the Sidebar component
 import Sidebar from '../components/Sidebar';
+// import the Feed component
+import Feed from '../components/Feed';
 
 export default function Home() {
   return (
@@ -17,7 +19,10 @@ export default function Home() {
         {/* defininng the broad structure of the project */}
         {/* Sidebar */}
         <Sidebar />
+
         {/* Feed */}
+        <Feed />
+
         {/* Widgets */}
 
         {/* Modal */}
