@@ -1,4 +1,6 @@
 import { SparklesIcon } from "@heroicons/react/outline";
+// import the Input component
+import Input from "./Input";
 
 function Feed() {
     return (
@@ -11,14 +13,15 @@ function Feed() {
                 
                 <h2 className="text-lg sm:text-xl font-bold"> Home </h2>
                 
-                <div className="border-2 w-9 h-9 flex items-center justify-center ml-auto xl:px-0">
+                {/* creating my own custom class named "hoverAnimation" */}
+                <div className="border-2 w-9 h-9 flex items-center justify-center ml-auto xl:px-0 hoverAnimation">
                     <SparklesIcon className="h-5 text-white"/>
                 </div>
 
             </div>
 
             {/* Input Component --> create new post container */}
-            Input Component
+            <Input />
 
             {/* posts container --> display all the posts */}
             <div className="border-2 border-purple-500">
