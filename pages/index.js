@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
+// import the Sidebar component
+import Sidebar from '../components/Sidebar';
 
 export default function Home() {
   return (
@@ -11,9 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="border-2 border-white bg-black min-h-screen max-w-screen-2xl mx-auto flex">
         {/* defininng the broad structure of the project */}
         {/* Sidebar */}
+        <Sidebar />
         {/* Feed */}
         {/* Widgets */}
 
